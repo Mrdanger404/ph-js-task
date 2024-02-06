@@ -1,0 +1,153 @@
+Problem 1: Let’s Play A Mind Game
+
+
+তোমাকে একটা Function দেওয়া হবে Called MindGame(” যা ইনপুট হিসেবে একটা Positive Number নিবে।")
+
+
+
+এখন তোমার Task : তোমাকে সেই নাম্বার এর সাথে 3 গুন করে, তারপর 10 যোগ করে, তারপর 2 দিয়ে ভাগ করে, তারপর 5 বিয়োগ করে, যা আউটপুট আসবে তা Return করতে হবে
+
+Sample Input & Output
+
+Input: 5
+
+Output: 7.5
+
+
+
+Input: 50
+
+Output: 75
+
+
+
+Input: 33
+
+Output: 49.5
+
+
+
+
+
+Problem 2: Finding Even Or Odd
+
+
+তোমাকে একটা Function দেওয়া হবে Called EvenOdd(). এটা ইনপুট হিসেবে একটা String নিবে। 
+
+
+
+এখন তোমার Task: String এ Total কয়টা Character আছে তার উপর ভিত্তি করে আউটপুট দিতে হবে। আউটপুট হবে ‘Even’ অথবা ‘Odd’ ।Sample Input & Output:
+
+
+
+Input: ‘Phero’
+
+Output: Odd
+
+
+
+Input: ‘Batch7’
+
+Output: Even
+
+
+
+Input: ‘Chatgpt’
+
+Output: Odd
+
+
+
+Problem 3: Is Less Or Greater Than Seven
+
+
+তোমাকে একটা Function দেওয়া হবে Called “IsLGSeven()”. এটা ইনপুট হিসেবে একটা Number নিবে।  
+
+
+
+এখন তোমার Task: তোমাকে ইনপুট ভ্যালু এবং ৭ এর মধ্যে পার্থক্য বের করতে হবে। যদি এই পার্থক্য ৭ এর চেয়ে ছোট হয়, তখন তোমাকে Return করতে হবে সেই বিয়োগফল। নাহলে তোমাকে Return করতে হবে Double Of The Input। মানে যে সংখ্যা ইনপুট হিসেবে নিয়েছো সেটির দ্বিগুণ।
+
+Input : 6
+
+Output: -1
+
+Input: -15
+
+Output: -22
+
+Input: 15
+
+Output: 30
+
+
+Problem 4: Finding Bad Data
+
+
+তোমাকে একটা Function দেওয়া হবে Called FindingBadData(). এটা ইনপুট হিসেবে একটা Array নিবে। Array তে যেকোনো সংখ্যক কতগুলো Number থাকবে। Number গুলো Negative Number (Less Than Zero) ও হতে পারে, আবার Positive Number (Greater Than Or Equal To Zero) ও হতে পারে। কোনও Number যদি Negative হয় সেটাকে আমরা বলব “Bad Data”. কোনও Number যদি Positive হয় সেটাকে আমরা বলব “Good Data”. 
+
+এখন তোমার Task: Array তে কতগুলো Bad Data আছে সেটা খুঁজে বের করতে হবে এবং সেই নাম্বার টা Return করতে হবে।
+
+
+
+Sample Input & Output:-
+
+
+
+Input: [ 1,2,5 ]
+
+Output: 0
+
+
+
+Input: [ 2, -5, -7, -13 ]
+
+Output: 3
+
+
+
+Input: [ -4, -9, -5, -33, -55 ]
+
+Output: 5
+
+
+
+
+
+Problem 5: Convert Your Gems Into Diamond
+
+
+তোমাকে একটা Function দেওয়া হবে Called GemsToDiamond(). এটা ইনপুট হিসেবে তিনটা Number ( তোমাদের ৩ বন্ধুর Gems এর সংখ্যা ) নিবে। 
+
+
+
+১ম বন্ধুর প্রতি Gems এর ক্ষমতা = 21
+
+২য় বন্ধুর প্রতি Gems এর ক্ষমতা = 32
+
+৩য় বন্ধুর প্রতি Gems এর ক্ষমতা = 43
+
+
+
+[ Gems এর ক্ষমতা বলতে একটা Gems কে কয়টা Diamond এ Convert করা যাবে সেটা বুঝানো হচ্ছে। ]
+
+এখন তোমার Task: সব বন্ধুর Gems মিলিয়ে Total কতটি Diamond পাবে সেটা বের করতে হবে। Total Diamond এর সংখ্যা যদি 1000 এর দিগুন এর উপর হয়ে যায় সেক্ষেত্রে Total Diamond থেকে 2000 বাদ দিয়ে যতগুলো Diamond অবশিষ্ট থাকবে, ততগুলো তোমরা পাবে।
+
+Sample Input & Output:-
+
+
+
+Input: 1, 1, 1
+
+Output: 96
+
+
+
+Input: 20, 200, 50
+
+Output: 6970
+
+
+
+Input: 100, 5, 1
+
+Output: 303

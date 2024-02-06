@@ -1,4 +1,4 @@
-const numbers = [20,10, 11, 25]
+const numbers = [20,10, 11, 25,25]
 
 function sumOfNumbers(num) {
     let sum = 0
